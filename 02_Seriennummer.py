@@ -14,3 +14,5 @@ my_product.generate_serial_number(1)
 print(my_product.get_serial_number())
 my_product.generate_serial_number(2)
 print(my_product.get_serial_number())
+
+# Output:
