@@ -1,13 +1,12 @@
 class Medienbibliothek:
     def __init__(self):
-        self.title = 0
+        self._title = 0
 
     def Movie(self, title):
         if -1 < title <= 2:
-            self.title = title
+            self._title = title
 
-        def film_name(self):
-            return self.title
+
 
 
 #0 = "The Godfather"
